@@ -1,12 +1,32 @@
 .card {
+    max-width: 100%;
     margin-top: 30px;
     -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.16);
     box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.16);
 }
 
-.pasajeros {
+.card-header>div {
+    float: left;
+}
+
+.pasajero {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.imagen-conductor {
     text-align: left;
+    width: 25%;
+}
+
+.datos-viaje {
+    width: 75%;
+}
+
+h2 {
+    font-size: 1rem;
 }
 
 .icono {
@@ -14,13 +34,10 @@
     height: 50px;
     border-radius: 50%;
     background-color: green;
-    display: flex;
     /*Alinar los iconos que estan adetro del circulo amarillo*/
+    display: flex;
     justify-content: space-evenly;
-    align-items: center;
     margin-top: 2rem;
-}
-
-.icono {
     font-size: 3rem;
+    margin: 0;
 }
