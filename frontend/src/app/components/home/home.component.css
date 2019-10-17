@@ -1,7 +1,26 @@
-.collapse-content .fa.fa-heart:hover {
-    color: #f44336 !important;
+.card {
+    margin-top: 30px;
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.16);
 }
 
-.collapse-content .fa.fa-share-alt:hover {
-    color: #0d47a1 !important;
+.pasajeros {
+    text-align: left;
+}
+
+.icono {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    /*Alinar los iconos que estan adetro del circulo amarillo*/
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.icono {
+    font-size: 3rem;
 }
