@@ -6,4 +6,5 @@ export class Viaje {
     direccionLlegada: string;
     precio: string;
     vehiculo: Vehiculo;
+    cantidadCupo: number;
 }

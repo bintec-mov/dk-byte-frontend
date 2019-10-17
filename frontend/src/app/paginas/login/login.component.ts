@@ -12,4 +12,11 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
 
+  loginGoogle() {
+    alert('login cliqueado');
+  }
+  loginFacebook() {
+    alert('login facebook');
+  }
+
 }
